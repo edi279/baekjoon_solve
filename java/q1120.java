@@ -10,7 +10,7 @@ public class q1120 {
             int count = 0;
             for (int j=0;j<A.length();j++){
                 if (B.charAt(i+j)!=(A.charAt(j))) count++;
-            }           // 낱개 글자 비교할때는 charAt()
+            }           // 낱개 글자 비교할때는 charAt() 
             if (min>count) min = count;
         }
         System.out.println(min);
