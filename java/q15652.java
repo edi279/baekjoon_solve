@@ -14,7 +14,7 @@ public class Main{
         }
         for (int i=0;i<N;i++){
             if (!check[i]){
-                for (int j=0;j<i;j++){
+                for (int j=0;j<i;j++){ // 작은값은 출력x, 같은수는 허용.
                     check[j] = true;
                 }
                 arr[index] = i+1;
