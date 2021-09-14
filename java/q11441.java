@@ -9,7 +9,7 @@ public class q11441{
         long[] arr = new long[N+1];
         for (int i=1;i<=N;i++){
             arr[i] = in.nextInt();
-            arr[i] += arr[i-1]; // (구간 끝)-(구간 시작) 연산을 편하게 하기 위함
+            arr[i] += arr[i-1]; // (구간 끝)-(구간 시작) 연산을 편하게 하기 위함 
         }
         int M = in.nextInt(); // 구간 개수 M
         int[][] part = new int[M][2];
