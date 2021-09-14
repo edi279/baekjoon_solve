@@ -19,7 +19,7 @@ public class q15666{
             if(!check[i]){
                 for(int j=0;j<i;j++){
                     check[j] = true;
-                } // 중복 출력은 가능
+                } // 중복 출력은 가능 
                 p_arr[index] = arr[i];
                 find_arr(index+1);
                 for(int j=0;j<i;j++){
