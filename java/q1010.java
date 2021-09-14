@@ -6,7 +6,7 @@ public class q1010{ // N만큼 M의 지점을 순서없이 선택. 다리가 교
         StringBuilder sb = new StringBuilder();
         Scanner in = new Scanner(System.in);
         int T = in.nextInt();
-        int[][] NM = new int[T][2]; // test case 입력
+        int[][] NM = new int[T][2]; // test case 입력 
         long[] result = new long[T]; // 결과 출력
         for (int i=0;i<T;i++){
             NM[i][0] = in.nextInt(); // N
