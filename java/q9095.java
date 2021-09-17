@@ -15,7 +15,7 @@ public class q9095{
         result[1] = 1;
         for (int i=2;i<11;i++){
             if (i<4) dp[i] = i-1;
-            else dp[i] = dp[i-3]+dp[i-2]+dp[i-1]; // 수열 규칙 적용
+            else dp[i] = dp[i-3]+dp[i-2]+dp[i-1]; // 수열 규칙 적용 
             result[i] = result[i-1]+dp[i]; 
         }
         for (int i=0;i<T;i++){
