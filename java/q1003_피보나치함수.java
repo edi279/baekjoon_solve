@@ -12,7 +12,7 @@ public class q1003{
         for (int i=0;i<T;i++){
             N[i] = Integer.parseInt(br.readLine());
         }
-        count_0[0] = 1;
+        count_0[0] = 1; 
         count_1[0] = 0;
         count_0[1] = 0;
         count_1[1] = 1;
